@@ -51,10 +51,34 @@ a {
     transition: all .2s ease-in-out;
 }
 
+.list {
+    font-size: 23px;
+    margin-top: 0%;
+    margin-bottom: 0%;
+
+}
+
+.front_page {
+    position: absolute; 
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 85%;
+    margin-top:4%;
+    margin-bottom:0%;
+}
+
+.schedule {
+    height: 85%;
+    margin-top:0%;
+    margin-bottom:0%;
+}
+
 a:hover,
 a:focus {
     text-decoration: none;
-    color: #11505d;
+    color: #0E404A;
 }
 
 .light {
@@ -138,7 +162,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #B0B0B0 ;
-    background: url(/img/intro-bg_light.jpg) no-repeat bottom center scroll;
+    background: url({{ site.baseurl }}/img/intro-bg_light.jpg) no-repeat bottom center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -278,8 +302,28 @@ a:focus {
 }
 
 .content-section {
-    padding-top: 100px;
+    height: 100vh;
+    /*padding-top: 100px;*/
 }
+
+.top {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 5%;
+}
+.bottom {
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    bottom:5%;
+
+}
+.central {
+    margin: 0 auto;
+ }
 
 .download-section {
     width: 100%;

@@ -1,13 +1,14 @@
 # Site settings
+baseurl: /agi15ida
 title: IDA @ AGI-15
 email: vveitas@gmail.com
 url: https://freedomandconstraint.github.io/agi15-ida
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "Resulting from a collaboration between the AGI Society (which hosts the AGI conference series) and members of the Global Brain Institute at the Free University of Brussels, this Workshop will focus on issues related to distributed cognitive systems and their role in AGI research."
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#4c4c4c'
-  links: '#219ab3'
+  links: '#fff'
 
 # Footer settings
 footer: FaC
