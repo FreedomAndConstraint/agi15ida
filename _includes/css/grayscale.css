@@ -176,27 +176,33 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 5px;
+    font-size: 4vh;
+    margin-top: 2vh;
+    margin-bottom: 0.5vh;
 }
 
 .intro .intro-body .intro-text {
-    font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    font-size: 2.5vh;
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
 }
 
-.intro-text {
+.pointer {
     font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+
+#workshop_logo {
+    max-height: 46vh;
+    max-width:80vw;
 }
 
 .intro .intro-body .sub-heading {
-    font-size: 24px;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    font-size: 2.5vh;
+    margin-top: 0.5vh;
+    margin-bottom: 1vh;
 }
 
 @media(min-width:767px) {
